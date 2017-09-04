@@ -226,6 +226,9 @@ th {
 h1, h2, h3, h4, h5, h6 {
   font-weight: 300; }
 
+a {
+  text-decoration: none; }
+
 header {
   padding: 1.5em 0; }
   header .logo {
@@ -399,26 +402,101 @@ header {
       #main_footer .links a:hover {
         color: #73e298; }
 
-.recommendation {
-  width: 1000px;
+.parent__wrapper .recommendation {
+  width: 800px;
   max-width: 90%;
-  margin: 0 auto;
-  background: pink; }
-  .recommendation header {
-    padding: 3em;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-    -ms-flex-pack: justify;
-    justify-content: space-between; }
-    .recommendation header h1, .recommendation header p {
-      margin: 0; }
-  .recommendation .wrapper {
-    background: navy;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex; }
+  margin: 0 auto; }
+
+.parent__wrapper header {
+  padding: 3em;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.parent__wrapper h1, .parent__wrapper a {
+  margin: 0; }
+
+.parent__wrapper a {
+  color: rgba(0, 0, 255, 0.5);
+  text-decoration: underline; }
+
+.parent__wrapper .wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+.parent__wrapper .wrapper_poster {
+  width: 700px; }
+  .parent__wrapper .wrapper_poster img {
+    border-radius: 5px; }
+  .parent__wrapper .wrapper_poster .previous {
+    color: #cccccc; }
+  .parent__wrapper .wrapper_poster .next {
+    color: #136cb2; }
+  .parent__wrapper .wrapper_poster .previous, .parent__wrapper .wrapper_poster .next {
+    margin: 20px 0px 0 40px;
+    font-size: 13px;
+    line-height: 13px; }
+
+.parent__wrapper .watchlist_movies {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+  .parent__wrapper .watchlist_movies .poster_watchlist img {
+    width: 128px;
+    height: 190px;
+    display: block;
+    border-radius: 5px; }
+  .parent__wrapper .watchlist_movies .poster_watchlist .button_watchlist {
+    padding: 2px;
+    border-radius: 2px;
+    border: 1px solid #cc9933;
+    background-color: #f6db40;
+    margin-top: 5px; }
+  .parent__wrapper .watchlist_movies .poster_watchlist .opinion {
+    margin: 2px 0 0 0;
+    display: block;
+    padding: 2px; }
+    .parent__wrapper .watchlist_movies .poster_watchlist .opinion .button_opinion {
+      background-color: #f1ead6;
+      padding: 2px;
+      display: inline-block;
+      text-align: center;
+      width: 59px;
+      border: 1px solid #c0c0c0;
+      border-radius: 3px;
+      color: #000000; }
+  .parent__wrapper .watchlist_movies .content {
+    margin-left: 20px;
+    -webkit-flex-basis: 50%;
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%;
+    color: #cccccc; }
+    .parent__wrapper .watchlist_movies .content a {
+      color: #e3e2dd;
+      font-weight: bold; }
+      .parent__wrapper .watchlist_movies .content a:hover {
+        color: blue;
+        cursor: pointer;
+        text-decoration: underline; }
+    .parent__wrapper .watchlist_movies .content span {
+      display: block;
+      color: #a49999;
+      font-size: 11px; }
+    .parent__wrapper .watchlist_movies .content p {
+      color: #333333;
+      font-size: 14px; }
+    .parent__wrapper .watchlist_movies .content .space {
+      margin-top: 20px; }
+      .parent__wrapper .watchlist_movies .content .space span {
+        font-size: 11px;
+        color: #333333; }
+    .parent__wrapper .watchlist_movies .content .rec {
+      color: #333333; }
