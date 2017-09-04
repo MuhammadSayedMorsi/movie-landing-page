@@ -346,10 +346,11 @@ header {
 #newsletter {
   padding: 5em 0;
   background: #2a2a2e;
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 6.5rem; }
   #newsletter .newsletter_inner {
     width: 600px;
-    margin: 0 auto 4rem auto; }
+    margin: 0 auto; }
     #newsletter .newsletter_inner h2 {
       font-size: 1.75em;
       color: #FFFFFF; }
@@ -405,7 +406,7 @@ header {
 .parent__wrapper .recommendation {
   width: 800px;
   max-width: 90%;
-  margin: 0 auto 4rem auto; }
+  margin: 2rem auto 4rem auto; }
 
 .parent__wrapper header {
   padding: 3em;
