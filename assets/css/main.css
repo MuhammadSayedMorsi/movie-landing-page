@@ -398,3 +398,27 @@ header {
       color: #8b8b9f; }
       #main_footer .links a:hover {
         color: #73e298; }
+
+.recommendation {
+  width: 1000px;
+  max-width: 90%;
+  margin: 0 auto;
+  background: pink; }
+  .recommendation header {
+    padding: 3em;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+    .recommendation header h1, .recommendation header p {
+      margin: 0; }
+  .recommendation .wrapper {
+    background: navy;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
