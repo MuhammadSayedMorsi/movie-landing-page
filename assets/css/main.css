@@ -245,7 +245,7 @@ header {
       text-decoration: none; }
 
 .banner {
-  background-image: url(../img/mad-max-bg.jpg);
+  background-image: url(../img/mad-max-bg-2.jpg);
   background-size: cover;
   background-width: 100%;
   background-repeat: no-repeat;
@@ -292,7 +292,7 @@ header {
         font-size: 1.75em;
         color: #FFFFFF; }
       .banner .banner_content .content .description {
-        color: #bbbebf;
+        color: #1e2021;
         font-size: 1em;
         line-height: 2; }
       .banner .banner_content .content .info {
@@ -430,7 +430,7 @@ header {
   display: flex; }
 
 .parent__wrapper .wrapper_poster {
-  width: 700px; }
+  width: 800px; }
   .parent__wrapper .wrapper_poster img {
     border-radius: 5px; }
   .parent__wrapper .wrapper_poster .previous {
