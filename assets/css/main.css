@@ -349,7 +349,7 @@ header {
   text-align: center; }
   #newsletter .newsletter_inner {
     width: 600px;
-    margin: 0 auto; }
+    margin: 0 auto 4rem auto; }
     #newsletter .newsletter_inner h2 {
       font-size: 1.75em;
       color: #FFFFFF; }
@@ -405,7 +405,7 @@ header {
 .parent__wrapper .recommendation {
   width: 800px;
   max-width: 90%;
-  margin: 0 auto; }
+  margin: 0 auto 4rem auto; }
 
 .parent__wrapper header {
   padding: 3em;
