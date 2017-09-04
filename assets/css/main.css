@@ -226,9 +226,6 @@ th {
 h1, h2, h3, h4, h5, h6 {
   font-weight: 300; }
 
-a {
-  text-decoration: none; }
-
 header {
   padding: 1.5em 0; }
   header .logo {
@@ -347,7 +344,7 @@ header {
   padding: 5em 0;
   background: #2a2a2e;
   text-align: center;
-  margin-bottom: 6.5rem; }
+  margin-bottom: 1rem; }
   #newsletter .newsletter_inner {
     width: 600px;
     margin: 0 auto; }
@@ -406,7 +403,7 @@ header {
 .parent__wrapper .recommendation {
   width: 800px;
   max-width: 90%;
-  margin: 2rem auto 4rem auto; }
+  margin: 0 auto 4rem auto; }
 
 .parent__wrapper header {
   padding: 3em;
