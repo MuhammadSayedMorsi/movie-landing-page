@@ -36,3 +36,35 @@
         color: $secondary
         margin: 0.5em 0
         cursor: pointer
+
+
+/* media query */
+
+@media only screen and (max-width: 783px)
+  #top_movies, #top_shows
+    padding: 3em 0
+    header
+      padding: 0 0 1.5em .9em
+      margin-bottom: 2em
+      h2
+        font-size: 1.5em
+      .view_more
+        margin: .75em 2.25% 0 0
+  #top_movies .row .post, #top_shows .row .post
+      width: 30.6%
+      margin: 0 1.25% 2em 1.25%
+      .title
+        font-size: 1em
+        margin: .5em 0 0 0
+      .poster_info
+        font-size: .65em
+
+
+
+/* */
+
+@media only screen and (max-width: 575px)
+  #top_movies .row .post, #top_shows .row .post
+    width: 250px
+    margin: 0 auto 2em auto
+    float: none

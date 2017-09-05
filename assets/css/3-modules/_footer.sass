@@ -5,6 +5,7 @@
   margin-bottom: 1rem
   .newsletter_inner
     width: 600px
+    max-width: 90%
     margin: 0 auto
 
     h2
@@ -59,3 +60,20 @@
       color: $secondary
       &:hover
         color: $highlight
+
+
+/* media query*/
+
+@media only screen and (575px)
+#newsletter
+  padding: 3em 0
+  .newsletter_inner
+    h2
+      font-size: 1.35em
+    .sign_up_form
+      margin-top: 2em
+      input[type="text"], input[type="email"]
+        width: 90%
+        margin: 0 0 1em 0
+      .button
+        margin-top: 1.5em  
