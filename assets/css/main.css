@@ -481,17 +481,18 @@ header {
         color: #73e298; }
 
 /* media query*/
-#newsletter {
-  padding: 3em 0; }
-  #newsletter .newsletter_inner h2 {
-    font-size: 1.35em; }
-  #newsletter .newsletter_inner .sign_up_form {
-    margin-top: 2em; }
-    #newsletter .newsletter_inner .sign_up_form input[type="text"], #newsletter .newsletter_inner .sign_up_form input[type="email"] {
-      width: 90%;
-      margin: 0 0 1em 0; }
-    #newsletter .newsletter_inner .sign_up_form .button {
-      margin-top: 1.5em; }
+@media only screen and (max-width: 575px) {
+  #newsletter {
+    padding: 3em 0; }
+    #newsletter .newsletter_inner h2 {
+      font-size: 1.35em; }
+    #newsletter .newsletter_inner .sign_up_form {
+      margin-top: 2em; }
+      #newsletter .newsletter_inner .sign_up_form input[type="text"], #newsletter .newsletter_inner .sign_up_form input[type="email"] {
+        width: 90%;
+        margin: 0 0 1em 0; }
+      #newsletter .newsletter_inner .sign_up_form .button {
+        margin-top: 1.5em; } }
 
 .banner {
   background-image: url(../img/mad-max-bg-2.jpg);
